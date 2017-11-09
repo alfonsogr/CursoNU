@@ -1,0 +1,59 @@
+.fondobody{
+      background: url(../img/fondo.jpg);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+}
+
+.altura{
+  height: 7em;
+}
+
+.altura1{
+  height: 23em;
+  background-color: rgba(0,160,230,.40)
+}
+
+.altura2{
+  height: 43em;
+  background-color: rgba(0,160,230,.40)
+}
+
+.altura3{
+  height:23em;
+  background-color: white;
+  text-align: justify;
+}
+
+.altura4{
+  height:23em;
+  background-color: white;
+  text-align: center;
+}
+
+.altura5{
+  height: 23em;
+}
+
+.imagen{
+  width: 100%;
+  margin-top: 4em;
+  border: 2px solid black;
+}
+
+.imagen2{
+  width: 300px;
+  border-radius: 50%;
+}
+
+.Trans{
+  color: darkblue;
+}
+
+
+.lugar{
+  margin-left: 200px;
+  margin-top: 8em;
+}

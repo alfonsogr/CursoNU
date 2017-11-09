@@ -1,0 +1,125 @@
+.musica-body {
+  background-color: rgb(190,150,80);
+  width: 100%;
+  height: 100%;
+}
+
+.logo-img{
+    height: 60px
+    float: right;
+}
+
+.reds-img {
+  margin-top: 60px;
+  float: right;
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+}
+
+ul {
+  margin: 0;
+  overflow: hidden;
+  height: 100%;
+}
+li {
+  text-align: center;
+  float: left-column;
+  display: grid;
+  margin: 0px 15px;
+  padding: 15px 0px;
+  height: 100%;
+}
+
+.buscarImg{
+  margin-top: 8px;
+  height: 20px
+}
+
+.lista{
+  font-weight: bold;
+  color: rgb(120,60,0);
+  background-color: white;
+  text-align: center;
+}
+
+.lista :hover{
+  background-color: rgb(212,212,212);
+}
+
+.list-inline :hover{
+  background-color: rgb(255,200,100);
+  color: brown;
+}
+
+
+
+.opciones {
+  color: white;
+	text-decoration-line: none;
+	font-size: 18px;
+}
+
+.Foto{
+  margin-top: 149px;
+  border: 2px;
+  display: inline;
+  height: 400px;
+  text-align: center;
+}
+
+.delblog{
+  font-size: 24px;
+}
+
+.Foto2{
+  display: inline;
+  margin-top:245px;
+  margin-left: 25px;
+  border: 2px color black;
+  display: inline;
+  height: 224px;
+  text-align: center;
+}
+
+
+.PieFoto{
+  font-weight: bold;
+  text-align: center;
+  color: red;
+}
+
+.txtali{
+  text-align: justify;
+}
+
+.derres{
+  font-size: 15px;
+  text-align: center;
+}
+
+
+.right-column{
+  background-color: rgb(255,230,205)
+}
+
+
+@media (max-width: 770px) {
+  /* Clase para ocultar columna derecha */
+.right-column {
+    display: none;
+  }
+
+.foto{
+  text-center;
+}
+
+.Foto2{
+  text-center;
+}
+
+.comentar{
+  <label for="comentario"></label>
+  <textarea  name="comentario" rows="2" cols="20"></textarea>
+}
+}
